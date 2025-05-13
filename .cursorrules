@@ -1,0 +1,47 @@
+# Instructions
+
+During your interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+
+You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+Note: Modifying the code should not affect existing functions
+
+# Lessons
+- 使用高德地图API时需要注意API密钥的安全性
+- 项目结构应该遵循Python最佳实践
+- 处理API返回数据时需要注意类型转换，特别是数值类型的转换
+- 处理API响应时需要考虑字段可能为空的情况，使用Optional类型和默认值
+- 处理API响应时需要考虑字段可能返回特殊值类型（如空列表）的情况
+
+# Current Task: 改进AmapTrafficWatcher项目
+## 任务目标
+改进现有的交通监控项目，增加更多功能和更好的工程实践
+
+## 计划步骤
+[ ] 1. 创建项目基本结构
+    - 创建requirements.txt
+    - 创建.env文件管理敏感数据
+    - 创建项目目录结构
+
+[ ] 2. 重构现有代码
+    - 将record_duration.py拆分为多个模块
+    - 实现FastAPI接口
+    - 添加地理编码查询功能
+
+[ ] 3. 添加新功能
+    - 实现地理编码查询接口
+    - 优化数据存储和可视化
+
+[ ] 4. 文档和说明
+    - 创建README.md
+    - 添加API文档
+    - 添加使用说明
+
+## 进度
+当前状态：开始重构项目
